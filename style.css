@@ -84,3 +84,19 @@ body>div>div>div {
 .box10:hover {
     transform: translate(2.7rem,0);
 }
+
+.box11:hover {
+    transform: translate(0,2.7rem);
+}
+
+.box12:hover {
+    transform: translate(2.7rem ,0) skew(0deg, 40deg) scale(2,2);
+}
+
+.box13:hover {
+    transform: perspective(100px) rotateX(55deg);
+}
+
+.box14:hover {
+    transform: perspective(100px) rotateY(55deg);
+}
