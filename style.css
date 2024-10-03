@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 body>div {
     background-color: beige;
     display: flex;
@@ -149,4 +150,14 @@ body>div>div>div {
 .box24:hover {
     transform: scaleX(2);
     transform-origin: left;
+}
+
+.box25:hover {
+    transform: scaleY(2);
+    transform-origin: top;
+}
+
+.box26:hover {
+    transform: scaleY(2);
+    transform-origin: bottom;
 }
