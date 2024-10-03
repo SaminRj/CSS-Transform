@@ -100,3 +100,53 @@ body>div>div>div {
 .box14:hover {
     transform: perspective(100px) rotateY(55deg);
 }
+
+.box15:hover {
+    transform: rotate(45deg);
+    transform-origin: top right;
+}
+
+.box16:hover {
+    transform: rotate(45deg);
+    transform-origin: left bottom;
+}
+
+.box17:hover {
+    transform: perspective(200px) rotateX(40deg);
+    transform-origin: bottom;
+}
+
+.box18:hover {
+    transform: perspective(200px) rotateX(60deg);
+    transform-origin: top;
+}
+
+.box19:hover {
+    transform: perspective(200px) rotateY(35deg);
+    transform-origin: left;
+}
+
+.box20:hover {
+    transform: perspective(200px) rotateY(60deg);
+    transform-origin: right;
+}
+
+.box21:hover {
+    transform: scale(2);
+    transform-origin: right top;
+}
+
+.box22:hover {
+    transform: scale(2);
+    transform-origin: bottom left;
+}
+
+.box23:hover {
+    transform: scaleX(2);
+    transform-origin: right;
+}
+
+.box24:hover {
+    transform: scaleX(2);
+    transform-origin: left;
+}
