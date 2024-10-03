@@ -31,8 +31,56 @@ body>div>div {
     box-shadow: 2px 3px 5px lightgray;
 }
 
+body>div>div>div:first-child{
+    position: absolute;
+    background-color: lightgrey;
+}
+
 body>div>div>div {
     width: 5.75rem;
     height: 5.75rem;
-    background-color: salmon;
+    background-color: rgba(255, 160, 122, 0.712);
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+    z-index: 5;
+}
+
+.box01:hover {
+    transform: rotate(45deg);
+}
+
+.box02:hover {
+    transform: scale(1,0.65);
+}
+
+.box03:hover {
+    transform: scale(0.65,1);
+}
+
+.box04:hover {
+    transform: scale(2,2);
+}
+
+.box05:hover {
+    transform: scale(2,1);
+}
+
+.box06:hover {
+    transform: scale(1,2);
+}
+
+.box07:hover {
+    transform: skew(40deg, 0deg);
+}
+
+.box08:hover {
+    transform: skew(0deg, 40deg);
+}
+
+.box09:hover {
+    transform: translate(2.7rem,1rem);
+}
+
+.box10:hover {
+    transform: translate(2.7rem,0);
 }
