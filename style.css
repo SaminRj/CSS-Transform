@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body>div {
+    background-color: beige;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 4rem;
+}
+body>div:nth-child(2n) {
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 4rem;
+    padding: 0 25rem;
+}
+
+body>div>div {
+    width: 12rem;
+    height: 8rem;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 3px 5px lightgray;
+}
+
+body>div>div>div {
+    width: 5.75rem;
+    height: 5.75rem;
+    background-color: salmon;
+}
